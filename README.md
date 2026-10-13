@@ -2,7 +2,7 @@
 
 This project implements an automatic pairing mechanism between two ESP32 microcontrollers to establish wireless communication without requiring manual device pairing each time.
 
-The system is designed to simplify ESP32-to-ESP32 connectivity by allowing one device to discover or connect to the other automatically using a predefined wireless communication method. Once connected, the ESP32 boards can exchange data and coordinate operations for applications such as IoT systems, home automation, sensor networks, and remote device control.
+The system is designed to simplify ESP32-to-ESP32 connectivity by allowing one device to discover or connect to the other automatically using a predefined wireless communication method. And to proof the established connection I have used a ultrasonic sensor, and retrieving its data to Client ESP32 and sending the value again to Server ESP32 displaying it on web frontend. Once connected, the ESP32 boards can exchange data and coordinate operations for applications such as IoT systems, home automation, sensor networks, and remote device control.
 
 ## Features
 
@@ -17,6 +17,9 @@ The system is designed to simplify ESP32-to-ESP32 connectivity by allowing one d
 - 2 × ESP32 development boards
 - USB cables for programming and power
 - Optional sensors or peripherals depending on the application
+- 1 x Ultrasonic Sensor
+- 4 x LEDS
+- 1 x Buzzer
 
 ## Applications
 
